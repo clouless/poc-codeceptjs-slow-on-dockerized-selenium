@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>test1</title>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.js"></script>
+    <script>
+        $(function() {
+            var time = $('#time');
+            time.html('date: ' + moment().format('YYYY-MM-dd'));
+            
+            var js = $('#js');
+            js.html('js-loaded');
+        });
+    </script>
 </head>
 <body>
 <h1>Test Page 1</h1>
 <h2>__MATCHME__</h2>
 <a id="linkToPage2" href="https://local.codeclou.io:4443/page2.html">page2</a>
+<div id="time"></div>
+<div id="js"></div>
+<hr/>
+<img src="goldengate-publicdomain-license.jpg" style="width:100%" />
 </body>
 </html>

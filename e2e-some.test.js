@@ -4,6 +4,9 @@ Scenario('Smoke Tests', (I) => {
 
   I.amOnPage('/index.html');
   I.see('__MATCHME__');
+  I.seeElement('#time');
+  I.see('date: ');
+  I.see('js-loaded');
   I.click('#linkToPage2');
   I.seeCurrentUrlEquals('/page2.html');
 
