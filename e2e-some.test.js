@@ -5,6 +5,13 @@ Scenario('Smoke Tests', (I) => {
   I.amOnPage('/index.html');
   I.see('__MATCHME__');
   I.click('#linkToPage2');
-  I.seeCurrentUrlEquals('https://local.codeclou.io:443/page2.html');
+  I.seeCurrentUrlEquals('/page2.html');
 
+    
+  I.amOnPage('/page2.html');
+  I.see('__MATCHME__');
+  I.click('#linkToPage3');
+  I.seeCurrentUrlEquals('/page3.html');
+  I.see('the end');
+    
 });
