@@ -38,3 +38,10 @@ Now Run the e2e Tests
 ```
 ./node_modules/.bin/codeceptjs run --steps
 ```
+
+<img width="655" alt="e2e-working" src="https://cloud.githubusercontent.com/assets/12599965/21079326/7b535798-bf8f-11e6-9546-043efca6953b.png">
+
+
+### License
+
+MIT License
