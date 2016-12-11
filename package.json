@@ -1,0 +1,13 @@
+{
+  "name": "poc-codeceptjs-slow-on-dockerized-selenium",
+  "version": "1.0.0",
+  "description": "poc-codeceptjs-slow-on-dockerized-selenium",
+  "scripts": {
+  },
+  "author": "codeclou.io",
+  "license": "MIT",
+  "devDependencies": {
+    "codeceptjs": "0.4.11",
+    "webdriverio": "4.2.16"
+  }
+}
